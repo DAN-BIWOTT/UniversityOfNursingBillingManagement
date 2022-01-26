@@ -25,50 +25,23 @@ function Footer(props) {
   return (
     <footer className={"footer" + (props.default ? " footer-default" : "")}>
       <Container fluid={props.fluid ? true : false}>
-        <nav>
-          <ul>
-            <li>
-              <a
-                href="https://www.creative-tim.com?ref=nudr-footer"
-                target="_blank"
-              >
-                Creative Tim
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://presentation.creative-tim.com?ref=nudr-footer"
-                target="_blank"
-              >
-                About Us
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://blog.creative-tim.com?ref=nudr-footer"
-                target="_blank"
-              >
-                Blog
-              </a>
-            </li>
-          </ul>
-        </nav>
+    
         <div className="copyright">
           &copy; {1900 + new Date().getYear()}, Designed by{" "}
           <a
-            href="https://www.invisionapp.com"
+            href="https://biwott.club/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Invision
+            Sabina
           </a>
           . Coded by{" "}
           <a
-            href="https://www.creative-tim.com?ref=nudr-footer"
+            href="https://biwott.club/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Creative Tim
+            Sean
           </a>
           .
         </div>
