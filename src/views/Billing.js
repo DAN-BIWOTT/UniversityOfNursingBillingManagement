@@ -29,6 +29,7 @@ import {
 
 // core components
 import PanelHeader from "components/PanelHeader/PanelHeader.js";
+import CheckOutButton from "components/Billing/CheckOutButton";
 
 
 
@@ -69,7 +70,7 @@ function RegularTables() {
                 <CardTitle tag="h4">Billing History</CardTitle>
               </CardHeader>
               <CardBody>
-                
+                <CheckOutButton/>
               </CardBody>
             </Card>
           </Col>
