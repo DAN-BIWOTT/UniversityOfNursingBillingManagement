@@ -2,6 +2,7 @@
   "name": "@UniversityOfNursing/001",
   "version": "1.5.0",
   "dependencies": {
+    "@paypal/paypal-js": "^4.2.2",
     "bootstrap": "4.6.0",
     "chart.js": "3.2.1",
     "gulp": "4.0.2",
