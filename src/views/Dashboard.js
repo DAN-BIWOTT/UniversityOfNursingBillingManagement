@@ -63,11 +63,11 @@ function Dashboard() {
             <Card className="card-chart">
               <CardHeader>
                 <h5 className="card-category">POSTGRES Statistics</h5>
-                <CardTitle tag="h4">Monthly Performance</CardTitle>
+                <CardTitle tag="h4">Rows Occupied</CardTitle>
               </CardHeader>
               <CardBody>
                 <div className="chart-area">
-                  <Bar
+                  <Line
                     data={dashboard24HoursPerformanceChart.data}
                     options={dashboard24HoursPerformanceChart.options}
                   />

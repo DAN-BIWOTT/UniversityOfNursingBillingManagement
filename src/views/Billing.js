@@ -60,7 +60,7 @@ function RegularTables() {
                 <CardTitle tag="h4">Billing</CardTitle>
               </CardHeader>
               <CardBody>
-                
+              <CheckOutButton/>
               </CardBody>
             </Card>
           </Col>
@@ -70,7 +70,7 @@ function RegularTables() {
                 <CardTitle tag="h4">Billing History</CardTitle>
               </CardHeader>
               <CardBody>
-                <CheckOutButton/>
+                
               </CardBody>
             </Card>
           </Col>

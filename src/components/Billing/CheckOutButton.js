@@ -5,6 +5,7 @@ const CheckOutButton = ({ product }) => {
   const [paidFor, setPaidFor] = useState(false);
   const [error, setError] = useState(null);
   const [loaded, setLoaded] = useState(false);
+  const title = "POSTGRES Database $100, GraphQl $0, RealTime Database 0$, File Database 0$"
   let paypalRef = useRef();
 
   useEffect(() => {
@@ -21,7 +22,7 @@ const CheckOutButton = ({ product }) => {
               return actions.order.create({
                 purchase_units: [
                   {
-                    description: product.title,
+                    description: title,
                     amount: {
                       currency_code: "USD",
                       value: 100,
@@ -51,7 +52,7 @@ const CheckOutButton = ({ product }) => {
   if (paidFor) {
     return (
       <div>
-        <h1 style={{color:"green"}}>🎉Your Yearly Subscription in ready.🎉</h1>
+        <h1 style={{color:"green"}}>🎉Your Yearly Subscription is ready.🎉</h1>
       </div>
     );
   } else
